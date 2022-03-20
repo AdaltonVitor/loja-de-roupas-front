@@ -1,4 +1,29 @@
 header{
     background: $cor-primaria;
     padding: 25px;
+
+    form{
+        input[type="text"]{
+            background: $branco;
+            width: 100%;
+            border-radius: 100px;
+            border: none;
+            padding: 10px 20px;
+                  
+        }
+        
+       
+        button{
+            background: none;
+            border: none;
+            
+            position: absolute;
+            right: 25px;
+           
+        }
+        textarea:focus, input:focus {
+            box-shadow: 0 0 0 0;
+            outline: 0;
+        }
+    }
 }

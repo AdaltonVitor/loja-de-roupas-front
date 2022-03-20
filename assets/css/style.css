@@ -12,6 +12,23 @@ header {
   background: #ffc107;
   padding: 25px;
 }
+header form input[type=text] {
+  background: #fff;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 20px;
+}
+header form button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 25px;
+}
+header form textarea:focus, header form input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
