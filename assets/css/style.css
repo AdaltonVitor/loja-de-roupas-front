@@ -59,16 +59,36 @@ nav.nav-produtos {
   background: #343a40;
   color: #fff;
 }
+nav.nav-produtos a {
+  color: #fff;
+}
 nav.nav-produtos ul.nav li {
   position: relative;
-  padding: 10px 0;
+  padding: 10px;
 }
 nav.nav-produtos ul.nav li svg {
   font-size: 20px;
   margin-right: 10px;
 }
+nav.nav-produtos ul.nav li:hover {
+  background: black;
+  cursor: pointer;
+}
+nav.nav-produtos ul.nav li:hover ul.nav {
+  display: block;
+}
 nav.nav-produtos ul.nav li ul.nav {
+  z-index: 999;
   display: none;
+  background: #343a40;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  border-top: solid #ffC107 10px;
+  width: 100%;
+}
+nav.nav-produtos ul.nav li ul.nav li {
+  padding: 10px 25px;
 }
 
 /*!
