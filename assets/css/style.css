@@ -1,13 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2? family= Source+Sans+Pro:wght@300;600;900 & display=swap");
-body {
-  color: #343a40;
-}
-
-a {
-  text-decoration: none !important;
-}
-
 header {
   background: #ffC107;
   padding: 25px;
@@ -89,6 +81,15 @@ nav.nav-produtos ul.nav li ul.nav {
 }
 nav.nav-produtos ul.nav li ul.nav li {
   padding: 10px 25px;
+}
+
+.banners-promocionais-estaticos .banners-promocionais-estaticos-12x {
+  background-color: #ff0f9A;
+  background-image: url("../imagens/parcele-em-12x.jpg");
+}
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br {
+  background-color: #B343c3;
+  background-image: url("../imagens/entrega-para-todo-brasil.jpg");
 }
 
 /*!
@@ -10440,5 +10441,12 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+body {
+  color: #343a40;
+}
+
+a {
+  text-decoration: none !important;
+}
 
 /*# sourceMappingURL=style.css.map */

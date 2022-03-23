@@ -1,0 +1,17 @@
+@mixin banners-promocionais( $cor, $url-image) {
+    background-color: $cor;
+        background-image: url($url-image);
+}
+.banners-promocionais-estaticos{
+    .banners-promocionais-estaticos-12x{
+
+        @include banners-promocionais($rosa, '../imagens/parcele-em-12x.jpg');
+       
+    }
+
+    .banners-promocionais-estaticos-todo-br{
+
+        @include banners-promocionais($roxo, '../imagens/entrega-para-todo-brasil.jpg');
+     
+    }
+}

@@ -1,18 +1,19 @@
 //fonts
+//fonts
 @import url('https://fonts.googleapis.com/css2? family= Source+Sans+Pro:wght@300;600;900 & display=swap');
-//framork
 
 
-//congig
+//variaveis
 @import "./variaveis.scss";
-@import "./config.scss";
 
 //componemts
 @import "./header.scss";
 @import "./nav-produtos.scss";
-
-
+@import "./banners-promocionais-estaticos.scss";
 
 //framework
-@import './bootstrap.scss';
+@import "./bootstrap.scss";
+
+//config
+@import "./config.scss";
 
