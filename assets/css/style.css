@@ -83,6 +83,9 @@ nav.nav-produtos ul.nav li ul.nav li {
   padding: 10px 25px;
 }
 
+.banners-promocionais-estaticos {
+  margin-top: 30px;
+}
 .banners-promocionais-estaticos .banners-promocionais-estaticos-12x {
   background-color: #ff0f9A;
   background-image: url("../imagens/parcele-em-12x.jpg");
@@ -90,6 +93,30 @@ nav.nav-produtos ul.nav li ul.nav li {
 .banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br {
   background-color: #B343c3;
   background-image: url("../imagens/entrega-para-todo-brasil.jpg");
+}
+.banners-promocionais-estaticos .banners-promocionais-estaticos-12x,
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br {
+  background-size: cover;
+  height: 105px;
+  padding: 20px 60px;
+  color: #fff;
+}
+.banners-promocionais-estaticos .banners-promocionais-estaticos-12x svg, .banners-promocionais-estaticos .banners-promocionais-estaticos-12x p,
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br svg,
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br p {
+  margin: 0;
+  padding: 0;
+}
+.banners-promocionais-estaticos .banners-promocionais-estaticos-12x p,
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br p {
+  font-weight: 100;
+  font-size: 23px;
+  line-height: 110%;
+  margin-left: 20px;
+}
+.banners-promocionais-estaticos .banners-promocionais-estaticos-12x p strong,
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br p strong {
+  font-weight: bold;
 }
 
 /*!
