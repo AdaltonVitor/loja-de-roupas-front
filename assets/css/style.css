@@ -142,6 +142,28 @@ nav.nav-produtos ul.nav li ul.nav li {
   font-size: 16px;
 }
 
+footer {
+  background: #343a40;
+  padding: 25px 0;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #fff;
+}
+footer h4 {
+  color: #ffC107;
+  font-size: 19px;
+}
+footer ul li.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
