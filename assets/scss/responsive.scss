@@ -1,8 +1,24 @@
+
+@media (max-width: 375px){
+    .banners-promocionais-estaticos{
+        .banners-promocionais-estaticos-12x,
+        .banners-promocionais-estaticos-todo-br{
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+
+}
+
 @media (max-width: 767px){
     header{
         form{
             margin: 20px 0;
         }
+    }
+    #carouselExampleControls{
+        display: none;
     }
 }
 

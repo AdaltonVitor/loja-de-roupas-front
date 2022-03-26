@@ -164,9 +164,19 @@ footer ul li.ellipsis {
   white-space: nowrap;
 }
 
+@media (max-width: 375px) {
+  .banners-promocionais-estaticos .banners-promocionais-estaticos-12x p,
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br p {
+    font-size: 14px;
+  }
+}
 @media (max-width: 767px) {
   header form {
     margin: 20px 0;
+  }
+
+  #carouselExampleControls {
+    display: none;
   }
 }
 @media (max-width: 991px) {
