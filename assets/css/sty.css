@@ -164,14 +164,9 @@ footer ul li.ellipsis {
   white-space: nowrap;
 }
 
-@media (max-width: 767px) {
-  header form {
+@media (min-width: 767px) {
+  header ul {
     margin: 20px 0;
-  }
-}
-@media (max-width: 991px) {
-  header ul li {
-    margin: 7px 0;
   }
 }
 /*!
@@ -10539,4 +10534,4 @@ h1, h2, h3, h4, h5 {
   font-weight: bold;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=sty.css.map */
