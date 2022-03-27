@@ -178,6 +178,10 @@ footer ul li.ellipsis {
   #carouselExampleControls {
     display: none;
   }
+
+  .produtos-container img {
+    width: 100%;
+  }
 }
 @media (max-width: 991px) {
   header ul li {
