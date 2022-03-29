@@ -1,5 +1,220 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2? family= Source+Sans+Pro:wght@300;600;900 & display=swap");
+header {
+  background: #ffC107;
+  padding: 25px;
+}
+header form input[type=text] {
+  background: #fff;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 20px;
+}
+header form button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 25px;
+}
+header form textarea:focus, header form input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+header ul li {
+  position: relative;
+}
+header ul li span.notificacao {
+  color: #fff;
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  background: #ff0f9A;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+header ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #343a40;
+}
+header ul li a svg {
+  font-size: 23px;
+}
+header ul li a:hover {
+  color: initial;
+}
+
+nav.nav-produtos {
+  background: #343a40;
+  color: #fff;
+}
+nav.nav-produtos a {
+  color: #fff;
+}
+nav.nav-produtos ul.nav li {
+  position: relative;
+  padding: 10px;
+}
+nav.nav-produtos ul.nav li svg {
+  font-size: 20px;
+  margin-right: 10px;
+}
+nav.nav-produtos ul.nav li:hover {
+  background: black;
+  cursor: pointer;
+}
+nav.nav-produtos ul.nav li:hover ul.nav {
+  display: block;
+}
+nav.nav-produtos ul.nav li ul.nav {
+  z-index: 999;
+  display: none;
+  background: #343a40;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  border-top: solid #ffC107 10px;
+  width: 100%;
+}
+nav.nav-produtos ul.nav li ul.nav li {
+  padding: 10px 25px;
+}
+
+.banners-promocionais-estaticos {
+  margin-top: 30px;
+}
+.banners-promocionais-estaticos .banners-promocionais-estaticos-12x {
+  background-color: #ff0f9A;
+  background-image: url("../imagens/parcele-em-12x.jpg");
+}
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br {
+  background-color: #B343c3;
+  background-image: url("../imagens/entrega-para-todo-brasil.jpg");
+}
+.banners-promocionais-estaticos .banners-promocionais-estaticos-12x,
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br {
+  background-size: cover;
+  height: 105px;
+  padding: 20px 60px;
+  color: #fff;
+}
+.banners-promocionais-estaticos .banners-promocionais-estaticos-12x svg, .banners-promocionais-estaticos .banners-promocionais-estaticos-12x p,
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br svg,
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br p {
+  margin: 0;
+  padding: 0;
+}
+.banners-promocionais-estaticos .banners-promocionais-estaticos-12x p,
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br p {
+  font-weight: 100;
+  font-size: 23px;
+  line-height: 110%;
+  margin-left: 20px;
+}
+.banners-promocionais-estaticos .banners-promocionais-estaticos-12x p strong,
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br p strong {
+  font-weight: bold;
+}
+
+.produtos {
+  margin: 30px 0;
+}
+.produtos .produtos-container {
+  margin: 30px 0;
+}
+.produtos .produtos-container .produtos-itens {
+  color: #343a40;
+}
+.produtos .produtos-container .produtos-itens h2 {
+  font-size: 19px;
+  margin: 10px 0 0;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars {
+  font-size: 12px;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars svg {
+  fill: #ffC107;
+}
+.produtos .produtos-container .produtos-itens .produtos-precos {
+  font-size: 16px;
+}
+
+footer {
+  background: #343a40;
+  padding: 25px 0;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #fff;
+}
+footer h4 {
+  color: #ffC107;
+  font-size: 19px;
+}
+footer ul li.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 375px) {
+  .banners-promocionais-estaticos .banners-promocionais-estaticos-12x p,
+.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  header form {
+    margin: 20px 0;
+  }
+
+  #carouselExampleControls {
+    display: none;
+  }
+
+  .produtos-container img {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  header ul li {
+    margin: 7px 0;
+  }
+}
+.produtos-compra figure {
+  margin: 0;
+}
+.produtos-compra .produtos-conteudo h1 {
+  margin: 0;
+  font-size: 32px;
+}
+.produtos-compra .produtos-conteudo p {
+  font-size: 16px;
+  text-align: justify;
+}
+.produtos-compra .produto-preco .produtos-stars svg {
+  fill: #ffC107;
+}
+.produtos-compra .produto-preco strong {
+  font-size: 40px;
+}
+.produtos-compra .produto-preco form {
+  font-weight: 100;
+}
+.produtos-compra .produto-preco form label {
+  margin: 0;
+}
+.produtos-compra .produto-preco .produtos-stars svg, .produtos-compra .produto-preco strong span, .produtos-compra .produto-preco form {
+  font-size: 16px;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -10349,5 +10564,30 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.breadcrumb {
+  background: initial;
+  margin: 40px 0;
+  padding: 0;
+}
+.breadcrumb a {
+  color: #ff0f9A;
+}
+
+body {
+  color: #343a40;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+  margin: 10px 0;
+}
 
 /*# sourceMappingURL=style.css.map */
