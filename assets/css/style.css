@@ -197,9 +197,22 @@ footer ul li.ellipsis {
 }
 .produtos-compra .produtos-conteudo p {
   font-size: 16px;
+  text-align: justify;
 }
-.produtos-compra .produtos-preco .produtos-stars svg {
+.produtos-compra .produto-preco .produtos-stars svg {
   fill: #ffC107;
+}
+.produtos-compra .produto-preco strong {
+  font-size: 40px;
+}
+.produtos-compra .produto-preco form {
+  font-weight: 100;
+}
+.produtos-compra .produto-preco form label {
+  margin: 0;
+}
+.produtos-compra .produto-preco .produtos-stars svg, .produtos-compra .produto-preco strong span, .produtos-compra .produto-preco form {
+  font-size: 16px;
 }
 
 /*!
