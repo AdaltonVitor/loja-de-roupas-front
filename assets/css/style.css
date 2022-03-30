@@ -182,6 +182,10 @@ footer ul li.ellipsis {
   .produtos-container img {
     width: 100%;
   }
+
+  .produtos-compra img {
+    width: 100%;
+  }
 }
 @media (max-width: 991px) {
   header ul li {
